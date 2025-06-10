@@ -1,0 +1,12 @@
+p{
+    color: black;/*color de la fuente*/
+    font-size: 20px; /*tamaño de la fuente*/
+    font-family: Arial, sans-serif; /*tipo de letra*/
+    font-weight: bold; /*grosor de la fuente|bold grueso, bolder max grueso posible*/
+    text-align: center; /*alineación del texto|star=left y end=right en español*/
+    text-decoration: underline; /*subrayado del texto|overline, underline, line-trough*/
+    line-height: 1.5; /*espacio entre líneas*/
+    letter-spacing: 2px; /*espacio entre letras*/
+    text-transform: uppercase; /*transformación del texto|uppercase mayúsculas, lowercase minúsculas, capitalize primera letra de cada palabra*/
+
+}
