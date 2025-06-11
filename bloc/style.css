@@ -1,0 +1,17 @@
+p{
+    /* Estilo de texto y lineas */
+    color: red;/* Color de párrafo, reemplaza el color por el que quieras */
+    font-size: 20px;/* Tamaño de fuente, reemplaza el tamaño por el que quieras en pixeles */
+    font-family: "NombreGenerico";/* Fuente, reemplaza la fuente por la que quieras, en caso de cargar la primera, carga la segunda y asi sucesivamente */
+    font-weight: bold;/* Peso de la fuente, reemplaza el peso por el que quieras, puede ser normal, bold, bolder, lighter, 100, 200, 300... */
+    font-style: italic;/* Estilo de la fuente, reemplaza el estilo por el que quieras, puede ser normal, italic, oblique */
+    text-decoration: underline;/* Decoración del texto, reemplaza la decoración por la que quieras, puede ser none, underline, overline, line-through */
+    line-height: 1.5;/* Altura de línea, reemplaza la altura por la que quieras, puede ser un número o un porcentaje */
+    letter-spacing: 2px;/* Espaciado entre letras, reemplaza el espaciado por el que quieras, puede ser un número o un porcentaje */
+    text-transform: uppercase;/* Transformación del texto, reemplaza la transformación por la que quieras, puede ser none, capitalize, uppercase, lowercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/* Sombra del texto, reemplaza la sombra por la que quieras, puede ser un número o un porcentaje */
+}
+li{
+    /* Estilo de fuentes/tipografias */
+    
+}

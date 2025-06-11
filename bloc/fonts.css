@@ -1,0 +1,4 @@
+@font-face {
+    font-family: "NombreGenerico"; /*Lo correcto seria colocar el nombre de la fuente*/
+    src: url(Fonts/Montserrat/static/Montserrat-Regular.ttf) format("truetype"); /*Ruta de la fuente, reemplaza la ruta por la que quieras*/
+}

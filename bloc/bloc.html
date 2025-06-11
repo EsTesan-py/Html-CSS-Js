@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <title>Documento de prueba</title>
+</head>
+<body>
+    <h1>Prueba</h1> <!-- Heading 1, cabecera mas grande-->
+    <p> Este es un párrafo de prueba</p> <!-- Párrafo -->
+    <h2>Div de Prueba</h2> <!-- Heading 2, cabecera mas pequeña-->
+    <div> <!-- Div, es un contenedor -->
+        <h2>Imagen dentro de bloque Div</h2>
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo"> <!-- Imagen: img| src de source | alt de alternativa si no se encuentra la imagen-->
+    </div>
+    <h2>Enlaces</h2> <!-- Enlaces -->
+    <a href="https://www.google.com" target="_blank">Ir a Google</a> <!-- Enlace a Google, target="_blank" abre en nueva pestaña -->
+    <br><!-- Salto de línea -->
+    <a href="bloc2.html">Ir a otro documento</a> <!-- Enlace a otro documento, sin target abre en la misma pestaña -->
+    <h2>Prueba de Listas</h2>
+    <h3>Lista desordenada</h3>
+    <ul> <!-- Lista desordenada -->
+        <li>Elemento x</li> <!-- Elemento de la lista -->
+        <li>Elemento y</li>
+        <li>Elemento x</li>
+    </ul>
+    <h3>Lista ordenada</h3>
+    <ol> <!-- Lista ordenada -->
+        <li>Elemento </li>
+        <li>Elemento </li>
+        <li>Elemento </li>
+    </ol>
+    <h2>Prueba de Tablas</h2>
+    <table> <!-- Tabla -->
+        <tr> <!-- Fila de la tabla -->
+            <th>Id</th> <!-- Encabezado de la tabla -->
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+        <tr> <!-- Segunda fila de la tabla -->
+            <td>1</td>
+            <td>Oscar</td>
+            <td>Sanchez</td>
+        </tr>
+        <tr> <!-- Tercera fila de la tabla -->
+            <td>2</td>
+            <td>Pedro</td>
+            <td>Perez</td>
+    </table>
+    <h2>Prueba de formularios</h2>
+    <form> <!-- Formulario -->
+        <label for="nombre">Nombre</label> <!-- Label es el texto que aparece al lado del input -->
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"> <!-- Input es el campo de texto -->
+        <br>
+        <label for="apellido">Apellido</label> <!-- for es el elemento que se va a vincular con el input -->
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"><!--placeholder es el texto que aparece dentro del input cuando no se ha escrito nada-->
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email"> <!-- Input de tipo email, valida que el texto sea un email -->
+        <br>
+        <input type="submit" required minlength="2" value="Enviar"><!--required es para que el input sea requerido, minlength es para que el input tenga una longitud mínima de 2 caracteres, value es el texto que aparece al lado del botón-->
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+</body>
+</html>
