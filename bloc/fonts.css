@@ -1,4 +1,25 @@
+/* Este archivo es para cargar las fuentes que se van a usar en el proyecto, se debe colocar en la carpeta "fonts" y se debe cargar en la hoja de estilos */
+@font-face {
+    font-family: "NombreGenerico"; /*Lo correcto seria colocar el nombre de la fuente*/
+    src: url(Fonts/Montserrat/static/Montserrat-ExtraLight.ttf) format("truetype"); /*Ruta de la fuente, reemplaza la ruta por la que quieras*/
+    font-weight: 100;
+}
+
 @font-face {
     font-family: "NombreGenerico"; /*Lo correcto seria colocar el nombre de la fuente*/
     src: url(Fonts/Montserrat/static/Montserrat-Regular.ttf) format("truetype"); /*Ruta de la fuente, reemplaza la ruta por la que quieras*/
+    font-weight: 400;
 }
+
+@font-face {
+    font-family: "NombreGenerico"; /*Lo correcto seria colocar el nombre de la fuente*/
+    src: url(Fonts/Montserrat/static/Montserrat-ExtraBold.ttf) format("truetype"); /*Ruta de la fuente, reemplaza la ruta por la que quieras*/
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "NombreGenerico"; /*Lo correcto seria colocar el nombre de la fuente*/
+    src: url(Fonts/Montserrat/static/Montserrat-Bolder.ttf) format("truetype"); /*Ruta de la fuente, reemplaza la ruta por la que quieras*/
+    font-weight: 900;
+}
+/* Al colocar el font-weight, en la hoja de estilos, el valor de font-weight debe coincidir con el valor del font-weight de la fuente que se esta cargando, si no coincide, se aplicara al mas cercano disponible*/
