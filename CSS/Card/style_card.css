@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif,Arial, sans-serif;
+    color: white;
+}
+.card{
+    background-color: red;
+    text-align: center;
+    width: 600px;
+}
+p{
+    background-color: coral;
+    text-align: left;
+    color:black;
+    font-size: 15px;
+    padding: 12px;
+}
+h1{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif,Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2{
+    font-style: italic;
+    background-color: rgb(206, 81, 81);
+    color: black;
+    margin-left:210px;
+    margin-right: 210px;
+}
