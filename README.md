@@ -1,1 +1,2 @@
-# Git learn + Html\nMy way to learn Git and HTML
+# Git learn + Html + CSS + Js
+## My way to learn Git, Html, Css and Js
