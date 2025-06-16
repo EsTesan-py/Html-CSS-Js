@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+.cajita{
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    margin: 10px
+}
+.cajita_default{
+    box-sizing: content-box; /*Se ajusta el tamaño del contenido, sin incluir el padding y el border*/
+    /*Quiere decir que el tamaño de la caja es el tamaño del contenido, sin tener en cuenta el padding y el border*/
+    padding: 10px;
+    border: 10px solid black;
+}
+.cajita_new{
+    box-sizing: border-box; /*Se ajusta el tamaño de la caja, teniendo en cuenta border, padding y contenido*/
+    padding: 15px;
+    border: 15px solid black;
+}
+/*Nos ahorra problemas de diseño, ya que no calculamos manualmente los tamaños de los elementos*/
+/*El contenido de la caja se ajusta automáticamente al tamaño del elemento, sin importar el padding y el border*/
+/*border-box ajusta la caja para que el tamaño total sea el mismo, sin importar el padding y el border*/
+/*content-box ajusta el tamaño del contenido, sin tener en cuenta el padding y el border*/
