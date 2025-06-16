@@ -11,7 +11,3 @@ p{
     text-transform: uppercase;/* Transformación del texto, reemplaza la transformación por la que quieras, puede ser none, capitalize, uppercase, lowercase */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/* Sombra del texto, reemplaza la sombra por la que quieras, puede ser un número o un porcentaje */
 }
-li{
-    /* Estilo de fuentes/tipografias */
-    
-}
