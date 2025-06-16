@@ -1,0 +1,38 @@
+div{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightgray;
+}
+div:hover {
+    /*Borde desde todos los lados*/
+    border: 3px solid black; /*Border: Tamaño, Estio y Color */
+    /*Es posible modelar el borde de forma individual*/
+    border-top-width: 5px;
+    border-top-style: dashed;
+    border-top-color: red;
+    /*Simplificacion de la propiedad border top*/
+    border-top: 5px dashed red;
+    
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    /*Simplificacion de la propiedad border bottom*/
+    border-bottom: 2px solid yellow;
+
+    border-radius: 10px 15px 0 5px; /*Borde redondeado, sentido del reloj*/
+    border-bottom-left-radius: 10PX;
+    /*Borde redondeado de forma individual*/
+    border-top-left-radius: 10px;
+}
+input{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    border: none;
+    border-top: 1px solid black;
+    background-color: whitesmoke;
+}
