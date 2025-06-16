@@ -1,0 +1,36 @@
+
+.box{
+    align-self: center;
+    box-sizing: border-box;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+}
+.box1{
+
+    background-color:rgba(206, 20, 20, 0.5); /* Color de fondo con opacidad */
+    
+}
+.box2{
+    
+    background-color: #aadd33; /* Color hexadecimal */
+    
+}
+.box3{
+    background-color:hsl(120, 100%, 50%);/* Color HSL */
+    
+}
+/*Hay muchos tipos de colores, puedes usar el nombre del color, el código hexadecimal, el código RGB, el código HSL, etc.*/
+/*Ejemplo de código hexadecimal: 
+#a22: a=red, 2=green, 2=blue.
+Si colocamos #000000 (6 digitos) podemos dar mas detalle entrando a mas colores dentro de red, green y blue
+digito 1 y 2: red
+digito 3 y 4: green
+digito 5 y 6: blue/*
+/*Ejemplo de código RGB:
+rgb(162, 34, 34)*/
+/*Al agregar un digito mas en rgb o en hexa, daremos un grado de opacidad en el color*/
+/*Ejemplo de código HSL:
+hsl(0, 60%, 40%)*/
+/*A la hora de colorizar, buscar paletas de colores en internet es una buena idea, ya que hay muchas combinaciones de colores que pueden quedar bien*/
