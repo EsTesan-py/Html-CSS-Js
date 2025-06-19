@@ -1,0 +1,21 @@
+body{
+    background-color: red;
+    margin: 0;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    background: radial-gradient(#000, transparent);
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid #900;
+}
+/*Hay 2 tipos de gradientes: radial y lineal, podemos moverlos a antojo de cualquier posicion a otra*/
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: white;
+    margin: 0;
+}
