@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.box{
+    width: 300px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 45px 0 #0007;
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #444;
+}
+h2{
+    margin: 5px;
+    list-style:none;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 17px;
+    text-shadow: 0 0 5px #0007;
+}
+p{
+    font-size: 14px;
+    text-shadow: 0 0 45px #0007;
+}
+.messi{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 0 0 50px 0 #0007;
+}
+.text{
+    width: 100%;
+    filter: drop-shadow(0 0 15px #000);
+}
+/*text-shadow: desplazamiento-horizontal desplazamiento-vertical radio-desenfoque color;
+box-shadow: horizontal verticual radio-desenfoque radio-extension color;
+filter contrae los mismos argumentos text shadow pero lo que hace es aplicar un filtro a la imagen, en este caso una sombra*/
