@@ -1,0 +1,30 @@
+.box{
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    /*Esto*/
+    /*background-color: #f4f;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj1HUnK6Lihr1arCZ1NwFrFmag7zvGFd7izA&s");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;*/
+    /*Es lo mismo que esto*/
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj1HUnK6Lihr1arCZ1NwFrFmag7zvGFd7izA&s") top / cover fixed #f4f;
+}
+/* Orden de background: image, position, repeat, size, attachment, color */
+/*Si este orden esta mal, no funciona el background*/
+body{
+    background-color: black;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: white;
+}
+/*Capa extra para lograr el fondo transparente*/
+.opaco{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
