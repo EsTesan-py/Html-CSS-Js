@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif,Arial, sans-serif;
+    color: white;
+}
+.card{
+    background:linear-gradient(to bottom, #f00, #fff);
+    text-align: center;
+    width: 600px;
+    margin: 50% auto;
+}
+.card_img{
+    width: 75%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-radius: 55%;
+}
+.card_content{
+    text-shadow: none;
+    text-align: left;
+    color:black;
+    font-size: 15px;
+    padding: 12px;
+}
+.card_title{
+    margin-top: 40px;
+    color: white;
+    background:radial-gradient( transparent, black);
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif,Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card_subtitle{
+    font-style: italic;
+    background: radial-gradient(transparent, #f004);
+    border-radius: 10px;
+    color: black;
+    margin-left:210px;
+    margin-right: 210px;
+}
